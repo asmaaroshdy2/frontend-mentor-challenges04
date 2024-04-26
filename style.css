@@ -1,0 +1,144 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+    color: white;
+    background-color:  hsl(257, 40%, 49%);
+}
+header p{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.sotial{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 180px;
+    margin-right: 100px;
+}
+.fa-brands{
+    margin: 10px;
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 8px;
+}
+main svg{
+    margin: 57px 50px 80px 70px;
+}
+h2{
+    margin-top: 90px;
+    line-height: 1.3;
+    font-size: 45px;
+    font-weight: normal;
+}
+.phara{
+    margin-top: 25px;
+    margin-right: 60px;
+    font-size: 20px;
+    line-height: 1.3;
+    word-break: break-word;
+}
+button{
+    color: hsl(257, 40%, 49%);
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 1px 25px hsl(257, 52%, 30%) ;
+}
+button:hover{
+    color: white;
+    transition-duration: 0.2s;
+    background-color: hsl(300, 69%, 71%);
+}
+.fa-brands:hover{
+    border-color: hsl(300, 50%, 58%);
+    color: hsl(300, 57%, 65%) ;
+    transition-duration: 0.2s;
+}
+footer{
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+footer p a{
+    color: white;
+}
+@media (max-width:700px){
+    main{
+        flex-direction: column;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-image: url("./images/bg-mobile.svg");
+        background-size: 100%;
+    }
+    h2{
+        margin: 30px 30px 20px 60px;
+        font-size: 65px;
+        width: 700px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    /* .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;} */
+    .phara{
+        text-align: center;
+        margin: 20px 600px 20px 60px;
+        font-size: 39px;
+        width: 700px;
+    }
+    button{
+        text-align: center;
+        margin-left:calc(100%/1.8) ;
+        width: 400px;
+        height: 70px;
+        border-radius: 40px;
+        font-size: 25px;
+    }
+    .sotial{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 600px;
+    }
+    .fa-brands{
+    margin-top: 20px;
+    }
+    footer p{
+        text-align: center;
+        margin: 40px;
+        padding-left: 50px;
+        width: 300px;
+    }
+    footer p a{
+        color: white;
+    }
+}
