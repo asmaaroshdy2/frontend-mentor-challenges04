@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+    background-image: url("./images/bg-desktop.svg");
     color: white;
     background-color:  hsl(257, 40%, 49%);
 }
