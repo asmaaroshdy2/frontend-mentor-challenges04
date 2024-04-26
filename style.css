@@ -7,6 +7,7 @@
 body{
     background-image: url("bg-desktop.svg");
     color: white;
+    background-repeat: no-repeat;
     background-color:  hsl(257, 40%, 49%);
 }
 header p{
@@ -90,7 +91,7 @@ footer p a{
         flex-direction: column;
     }
     body{
-        background-repeat: no-repeat;
+        background-repeat: repeat-x;
         background-image: url("bg-mobile.svg");
         background-size: 100%;
     }
